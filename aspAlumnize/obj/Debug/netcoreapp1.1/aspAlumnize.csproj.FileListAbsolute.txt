@@ -1,0 +1,8 @@
+/Users/paulvandyke/galvanize/unit-3/alumize/aspAlumnize/bin/Debug/netcoreapp1.1/aspAlumnize.deps.json
+/Users/paulvandyke/galvanize/unit-3/alumize/aspAlumnize/bin/Debug/netcoreapp1.1/aspAlumnize.runtimeconfig.json
+/Users/paulvandyke/galvanize/unit-3/alumize/aspAlumnize/bin/Debug/netcoreapp1.1/aspAlumnize.runtimeconfig.dev.json
+/Users/paulvandyke/galvanize/unit-3/alumize/aspAlumnize/bin/Debug/netcoreapp1.1/aspAlumnize.dll
+/Users/paulvandyke/galvanize/unit-3/alumize/aspAlumnize/bin/Debug/netcoreapp1.1/aspAlumnize.pdb
+/Users/paulvandyke/galvanize/unit-3/alumize/aspAlumnize/obj/Debug/netcoreapp1.1/aspAlumnize.AssemblyInfo.cs
+/Users/paulvandyke/galvanize/unit-3/alumize/aspAlumnize/obj/Debug/netcoreapp1.1/aspAlumnize.dll
+/Users/paulvandyke/galvanize/unit-3/alumize/aspAlumnize/obj/Debug/netcoreapp1.1/aspAlumnize.pdb
