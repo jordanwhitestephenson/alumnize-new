@@ -10,6 +10,9 @@ class LandingPage extends Component {
     <section>
         <div id="icon-wrapper">
             <a href="#/AboutPage" id="openMap">
+            <center>
+            <h1> Welcome To Alumnize </h1>
+          </center>
                 <div className="icons">
                     <div className="icon-slide-container">
                         <img className="slide-icon" height="100" src="./imgs/About.jpg" alt = "ya"/></div>
