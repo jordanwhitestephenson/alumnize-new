@@ -22,3 +22,8 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.ContactForm {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
