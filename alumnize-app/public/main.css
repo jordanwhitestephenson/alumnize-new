@@ -447,3 +447,15 @@ box-shadow: 0px -18px 32px -21px rgba(171,171,171,1);
 .newParagraph {
 	color: #fff;
 }
+.lineChartClass {
+	height: 400px;
+	width: 400px;
+}
+
+.lineChartClassPlacement {
+	width:400px;
+	float: left;
+}
+.pieChartPlacement {
+	margin-left: 420px;
+}
