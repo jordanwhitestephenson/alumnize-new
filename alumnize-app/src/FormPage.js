@@ -7,15 +7,23 @@ class FormPage extends Component {
     render() {
         return (
             <div>
+              <div className="back-animation back-imageCompanies back-pro content-104">
+          <div className = "damnyouReact">
+          <div className="container">
+            <div className="newrow">
+              <h1 className="newtitle">Alumnize</h1>
+              <p className = "newParagraph"> ADD YOUR GRADUATE DATA</p>
+            </div>
+          </div>
+          </div>
+          </div>
                 <div className="container">
-                  <div className = "graduateData">
+                  {/* <div className = "graduateData">
                     <h1 className="newtitle">
-                        Add Your Graduate Data
                         {FormContainer.formPayload}
-
                     </h1>
-                  </div>
-                    <img src = "http://usacdn.markmods.com/site/images/siemaIcons/256/globe%20orange.png" height= "90px" width= "90px" alt ="yaaa"/>
+                  </div> */}
+                    <img src = "http://usacdn.markmods.com/site/images/siemaIcons/256/globe%20orange.png" height= "50px" width= "50px" alt ="yaaa"/>
                 </div>
                 <div className="container">
                   <div className="columns">

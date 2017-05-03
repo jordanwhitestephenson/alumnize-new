@@ -10,16 +10,6 @@ import ShowCompanies from './ShowCompanies'
 import FormPage from './FormPage'
 import Data from './DatabasePage'
 
-
-
-
-
-
-
-
-
-
-
 class App extends React.Component {
     render() {
         return (
