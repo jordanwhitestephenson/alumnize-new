@@ -7,8 +7,9 @@ const cors = require('cors');
 
 const alumni = require('./routes/alumni');
 const employer = require('./routes/employer');
+const mock = require('./routes/mock');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(cors());
@@ -26,6 +27,7 @@ app.use(express.static('public'));
 
 app.use('/alumni', alumni);
 app.use('/employer', employer);
+app.use('/mock', mock);
 
 
 
