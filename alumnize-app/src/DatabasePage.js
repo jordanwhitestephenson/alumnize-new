@@ -5,7 +5,7 @@ import './App.css';
 class Data extends Component {
 
 componentDidMount() {
-var url = '../alumnizeBack/db/MOCK_DATA.json'
+// var url = '../alumnizeBack/db/MOCK_DATA.json'
 var that = this
   fetch(url)
   .then(function(response) {
