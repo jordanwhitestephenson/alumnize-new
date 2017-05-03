@@ -7,6 +7,16 @@ import '../public/main.css'
 class LandingPage extends Component {
   render(){
     return <div>
+      <div className="back-animation back-image back-pro content-104">
+  <div className = "damnyouReact">
+  <div className="container">
+    <div className="newrow">
+      <h1 className="newtitle">Alumnize</h1>
+      <p className = "newParagraph"> WHERE WORLD CLASS DEVELOPERS WORK</p>
+    </div>
+  </div>
+  </div>
+</div>
     <section>
         <div id="icon-wrapper">
             <a href="#/AboutPage" id="openMap">

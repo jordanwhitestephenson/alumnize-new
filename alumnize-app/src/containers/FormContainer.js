@@ -67,10 +67,7 @@ class FormContainer extends Component {
 
 		console.log('Send this in a POST request:', formPayload);
 		this.handleClearForm(e);
-			return (
-				<p> {formPayload} </p>
-			)
-		return formPayload
+	
 	}
 
 

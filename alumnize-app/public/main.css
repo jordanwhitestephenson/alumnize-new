@@ -224,10 +224,10 @@ h1{
   font-weight:700;
 }
 
-body{
+/*body{
   height:100vh;
   overflow:hidden;
-}
+}*/
 
 #main{
   display:inline-block;
@@ -356,7 +356,10 @@ box-shadow: 0px -18px 32px -21px rgba(171,171,171,1);
 	flex-direction: column;
 }
 .newtitle {
-	font-size: 50px
+	font-size: 70px;
+	color: #fc9827;
+	font-stretch: expanded;
+
 }
 .aboutOrange {
 	height: 90px;
@@ -383,4 +386,83 @@ box-shadow: 0px -18px 32px -21px rgba(171,171,171,1);
 	align-items: center;
 	justify-content: center;
 	align-content: center;
+}
+.content-104 .title{
+	font-size:45px;
+	text-shadow:0px 2px 3px #111;
+	text-transform: uppercase;
+}
+.content-104 p{
+	font-size:22px;
+	letter-spacing: 6px;
+}
+.back-image{
+	background:#FFFC12 url(https://static7.depositphotos.com/1008939/726/i/950/depositphotos_7260594-different-smiling-people.jpg) repeat scroll top left;
+	text-align:center;
+	color:#fff;
+}
+.back-imageCompanies {
+
+	background:#FFFC12 url(http://www.aiaflatop100.org/Peoples-Choice-Mosaic.png) repeat scroll top left;
+	text-align:center;
+	color:#fff;
+}
+.back-animation {
+  -webkit-animation: AnimateVertical 2500s linear infinite;
+  -moz-animation: AnimateVertical 2500s linear infinite;
+  -o-animation: AnimateVertical 2500s linear infinite;
+  animation: AnimateVertical 2500s linear infinite;
+  background-repeat: repeat-y !important;
+}
+.back-pro{
+	background-position: 0px 0px;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+@-webkit-keyframes AnimateVertical {
+	0% { background-position: 0px 0px; }
+  	100% { background-position: 0px -100000px; }
+}
+@-moz-keyframes AnimateVertical {
+    0% { background-position: 0px 0px; }
+  	100% { background-position: 0px -100000px; }
+}
+@-o-keyframes AnimateVertical {
+    0% { background-position: 0px 0px; }
+  	100% { background-position: 0px -100000px; }
+}
+@keyframes AnimateVertical {
+	0% { background-position: 0px 0px; }
+  	100% { background-position: 0px -100000px; }
+}
+.damnyouReact {
+	background:rgba(0,0,0,.7);
+	padding:120px 0;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.newRow{
+	margin-bottom: 50px;
+}
+
+.newParagraph {
+	color: #fff;
+}
+.lineChartClass {
+	height: 400px;
+	width: 400px;
+}
+
+.lineChartClassPlacement {
+	width:400px;
+	float: left;
+}
+.pieChartPlacement {
+	width:400px;
+	margin-left: 520px;
 }
