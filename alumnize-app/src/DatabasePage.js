@@ -4,15 +4,8 @@ import './App.css';
 
 class Data extends Component {
 
-//   constructor(){
-//     super();
-//     this.state = {
-//         name: []
-//     };
-// };
-
 componentDidMount() {
-var url = 'http://localhost:3001/alumni'
+var url = '../alumnizeBack/db/MOCK_DATA.json'
 var that = this
   fetch(url)
   .then(function(response) {
