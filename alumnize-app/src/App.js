@@ -8,22 +8,30 @@ import MapPage from './MapPage'
 import LandingPage from './LandingPage'
 import ShowCompanies from './ShowCompanies'
 import FormPage from './FormPage'
+import Data from './DatabasePage'
+
+
+
+
+
+
+
+
 
 
 
 class App extends React.Component {
-
     render() {
         return (
 
           <HashRouter>
-
             <div>
               <Route exact path="/" component={LandingPage}/>
               <Route path="/AboutPage" component={AboutPage}/>
+                <Route path="/DatabasePage" component={Data}/>
               <Route path="/MapPage" component={MapPage}/>
               <Route path="/ShowCompanies" component={ShowCompanies}/>
-                <Route path="/FormPage" component={FormPage}/>
+              <Route path="/FormPage" component={FormPage}/>
             </div>
           </HashRouter>
         )
