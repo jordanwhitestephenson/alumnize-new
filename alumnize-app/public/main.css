@@ -397,13 +397,30 @@ box-shadow: 0px -18px 32px -21px rgba(171,171,171,1);
 	letter-spacing: 6px;
 }
 .back-image{
-	background:#FFFC12 url(https://static7.depositphotos.com/1008939/726/i/950/depositphotos_7260594-different-smiling-people.jpg) repeat scroll top left;
+	background:#FFFC12 url(http://www.wills-estates.com.au/wp-content/uploads/2012/05/Depositphotos_7260594_L.jpg) repeat scroll top left;
 	text-align:center;
 	color:#fff;
 }
+
 .back-imageCompanies {
 
 	background:#FFFC12 url(http://www.aiaflatop100.org/Peoples-Choice-Mosaic.png) repeat scroll top left;
+	text-align:center;
+	color:#fff;
+}
+.back-imageMap {
+
+	background:#FFFC12 url(https://us.123rf.com/450wm/lipik/lipik1509/lipik150900471/45948639-diverse-people-s-faces-collage-of-diverse-multi-ethnic-and-mixed-age-people-expressing-different-emo.jpg?ver=6) repeat scroll top left;
+	text-align:center;
+	color:#fff;
+}
+.back-imageAboutUs {
+	background:#FFFC12 url(https://pbs.twimg.com/media/CUSNlO_WcAAV-pR.jpg) repeat scroll top left;
+	text-align:center;
+	color:#fff;
+}
+.back-imageData {
+	background:#FFFC12 url(https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAODAAAAJDcyNzc0NDhmLWFjYjQtNDExYy04NTk2LTk1NTgzOGIzOGYzOA.jpg) repeat scroll top left;
 	text-align:center;
 	color:#fff;
 }
