@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
+<<<<<<< HEAD
+=======
+// import Axios from 'axios'
+>>>>>>> f6c46c3a56f8b08f0cb76d4decbc91deff8e8b63
 import {Chart, pieChart, lineChart, PIE, CHART} from './chartmain'
 
 let ShowCompanies = React.createClass({
