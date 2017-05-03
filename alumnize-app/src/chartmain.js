@@ -11,6 +11,7 @@ const PIE = function() {
 let lineChart = function(el) {
   return new Chart(el,{
   type:'line',
+  responsive: false,
   data:{
         labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
         datasets: [{
@@ -55,6 +56,7 @@ let lineChart = function(el) {
 let pieChart = function(el) {
   new Chart(el, {
     type: 'pie',
+    responsive: false,
     data:{
       labels: ['Teaching', 'Front End', 'Full Stack', 'Back End', 'Program Managers'],
       datasets: [
