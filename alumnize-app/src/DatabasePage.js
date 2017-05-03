@@ -12,7 +12,7 @@ class Data extends Component {
 // };
 
 componentDidMount() {
-  var url = 'http://localhost:3001/alumni'
+var url = 'http://localhost:3001/alumni'
 var that = this
   fetch(url)
   .then(function(response) {
