@@ -5,13 +5,16 @@ class MapPage extends Component {
     render() {
         return (
             <div>
-                <div className="container">
-                    <h1 className="newtitle">
-                        MAPS
-                    </h1>
-                    <p>View Where Graduates Get Hired
-                    </p>
-                    <img src = "http://www.clker.com/cliparts/y/q/h/D/v/W/orange-world-map-hi.png" alt =" YA"/>
+                <div className="back-animation back-imageMap back-pro content-104">
+                    <div className="damnyouReact">
+                        <div className="container">
+                            <div className="newrow">
+                                <h1 className="newtitle">GRADUATE ROOTS</h1>
+                                <p className="newParagraph">
+                                    Alumnize</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
