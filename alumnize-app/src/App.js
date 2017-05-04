@@ -18,7 +18,7 @@ class App extends React.Component {
             <div>
               <Route exact path="/" component={LandingPage}/>
               <Route path="/AboutPage" component={AboutPage}/>
-                <Route path="/DatabasePage" component={Data}/>
+          
               <Route path="/MapPage" component={MapPage}/>
               <Route path="/ShowCompanies" component={ShowCompanies}/>
               <Route path="/FormPage" component={FormPage}/>
