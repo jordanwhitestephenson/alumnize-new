@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
 import {HashRouter, Route, Link, Redirect} from 'react-router-dom'
-import injectTapEventPlugin from "react-tap-event-plugin"
+// import injectTapEventPlugin from "react-tap-event-plugin"
 
 import AboutPage from './AboutPage'
 import MapPage from './MapPage'
 import LandingPage from './LandingPage'
 import ShowCompanies from './ShowCompanies'
 import FormPage from './FormPage'
-import Data from './DatabasePage'
 import FormSend from './FormSend'
 
 class App extends React.Component {
