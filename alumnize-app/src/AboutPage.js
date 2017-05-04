@@ -62,7 +62,7 @@ class AboutPage extends Component {
 
                 </section>
                 <div className = "outTemDiv">
-                <a href="#/" id="openMap"><img src = "./imgs/homebutton.png"/></a>
+                <a href="#/"><img src = "./imgs/homebutton.png"/></a>
                 <p> Go Home </p>
               </div>
               </div>
