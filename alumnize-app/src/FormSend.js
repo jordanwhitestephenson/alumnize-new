@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import FormContainer from './containers/FormContainer';
 
-
-class FormPage extends Component {
+class FormSend extends Component {
     render() {
         return (
             <div>
@@ -21,8 +20,8 @@ class FormPage extends Component {
                 <div className="container">
                     <div className="columns">
                         <div className="col-md-9 centered">
-                            <FormContainer/>
-
+                          <p> Congrats, your data has been saved! </p>
+                          <p>  </p>
 
                         </div>
                     </div>
@@ -36,4 +35,4 @@ class FormPage extends Component {
     }
 }
 
-export default FormPage;
+export default FormSend;

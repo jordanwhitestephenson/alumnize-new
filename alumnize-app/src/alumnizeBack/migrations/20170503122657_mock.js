@@ -9,6 +9,8 @@ exports.up = function(knex, Promise) {
       table.string('gender');
       table.string('graduatedate');
       table.string('employeddate');
+      table.decimal('lat');
+      table.decimal('long');
   })
 };
 

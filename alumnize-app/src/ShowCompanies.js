@@ -13,14 +13,17 @@ let ShowCompanies = React.createClass({
   render: function() {
       return (
           <div>
-              <div className="container">
-                  <h1 className="newtitle">
-                      Companies
-                  </h1>
-                  <img src="http://reasonableaccommodation.com/wp-content/uploads/2015/04/orange-world-map-256.png" alt="yaaa" className="companyImage"/>
-                  <p>All Companies
-                  </p>
-              </div>
+            <div className="back-animation back-imageData back-pro content-104">
+                <div className="damnyouReact">
+                    <div className="container">
+                        <div className="newrow">
+                            <h1 className="newtitle">GRADUATE DATA</h1>
+                            <p className="newParagraph">
+                                Alumnize</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
                     <div id="line" className = "lineChartClassPlacement">
                       <canvas id="lineChart"  className = "lineChartClass"></canvas>
@@ -28,6 +31,10 @@ let ShowCompanies = React.createClass({
                     <div id="pie" className ="pieChartPlacement">
                       <canvas id="pieChart" className = "lineChartClass"></canvas>
                     </div>
+                    <div className = "outTemDiv">
+                    <a href="#/" id="openMap"><img src = "./imgs/homebutton.png"/></a>
+                    <p> Go Home </p>
+                  </div>
 
           </div>
       )
