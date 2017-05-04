@@ -26,7 +26,7 @@ class AboutPage extends Component {
 
                     <div className="team-member">
                         <img className="team-photo" src="./imgs/AnitaProfile.jpg"/>
-                        <h3>ANITA KHEDKAR</h3>
+                        <h4>ANITA KHEDKAR</h4>
                         <span>With a nickname of "Amazing Anita", Anita loves teaching, Python and her dog Zoe  </span>
                         <a className="email" href="mailto:anita.khedkar@gmail.com">
                             <span>email</span>
@@ -35,7 +35,7 @@ class AboutPage extends Component {
 
                     <div className="team-member">
                         <img className="team-photo" src="./imgs/PaulProfile.jpg"/>
-                        <h3>PAUL VAN DYKE</h3>
+                        <h4>PAUL VAN DYKE</h4>
                         <span>Paul is over 6'4ft tall, loves Frosted Flakes, .NET, C#, Tesla cars and noodles in bulk </span>
                         <a className="email" href="mailto:gboss0352@gmail.com">
                             <span>email</span>
@@ -45,7 +45,7 @@ class AboutPage extends Component {
 
                     <div className="team-member">
                         <img className="team-photo" src="./imgs/JordanProfile.jpg"/>
-                        <h3>JORDAN STEPHENSON</h3>
+                        <h4>JORDAN STEPHENSON</h4>
                         <span> Living on a 50% taco diet, Jordan is a whizz at Javascript, AngularJS and all things design.</span>
                         <a className="email" href="mailto:jordanwhitestephenson@gmail.com">
                             <span>email</span>
@@ -53,15 +53,20 @@ class AboutPage extends Component {
                     </div>
                     <div className="team-member">
                         <img className="team-photo" src="./imgs/PaulVProfile.jpg"/>
-                        <h3>PAUL TORRES</h3>
+                        <h4>PAUL TORRES</h4>
                         <span>Paul left the financial world to become a web developer. His passions are long rides on his bike, Salesforce and free beer </span>
                         <a className="email" href="mailto:torrepaul@gmail.com">
                             <span>email</span>
                         </a>
                     </div>
+
                 </section>
+                <div className = "outTemDiv">
+                <a href="#/" id="openMap"><img src = "./imgs/homebutton.png"/></a>
+                <p> Go Home </p>
               </div>
-              <a href="#/LandingPage" id="openMap">Back To Home </a>
+              </div>
+
             </div>
         )
 

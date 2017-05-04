@@ -16,6 +16,10 @@ class MapPage extends Component {
                         </div>
                     </div>
                 </div>
+                <div className = "outTemDiv">
+                <a href="#/" id="openMap"><img src = "./imgs/homebutton.png"/></a>
+                <p> Go Home </p>
+              </div>
             </div>
         )
 

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import SingleInput from '../components/SingleInput';
 import TextArea from '../components/TextArea';
 import Select from '../components/Select';
+import { StaticRouters } from 'react-router-dom'
 
 class FormContainer extends Component {
 	constructor(props) {
@@ -64,16 +65,17 @@ class FormContainer extends Component {
 			employereadress: this.state.employereadress,
 			CurrentEmployer: this.state.CurrentEmployer
 		};
-
+		const context = {formPayload}
 		console.log('Send this in a POST request:', formPayload);
 		this.handleClearForm(e);
-	
+
 	}
 
 
 	render() {
 		return (
 			<div>
+
 			<form className="container" onSubmit={this.handleFormSubmit} className = "galFormStyle">
 				<SingleInput
 					inputType={'text'}
@@ -107,14 +109,14 @@ class FormContainer extends Component {
 						content={this.state.employereadress}
 						placeholder={'Address of Employer'} />
 
-				<input
-					type="submit"
-					className="btn btn-primary float-right"
-					value="Submit"/>
-				<button
-					className="btn btn-link float-left"
-					onClick={this.handleClearForm}>Clear form</button>
+
 			</form>
+			<a href = "#/FormSend"><input
+				type="submit"
+				className="btn btn-primary float-right"
+				id= "submitButtonOurs"
+			/></a>
+
 
 </div>
 		);

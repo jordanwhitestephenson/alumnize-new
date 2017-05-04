@@ -31,6 +31,10 @@ let ShowCompanies = React.createClass({
                     <div id="pie" className ="pieChartPlacement">
                       <canvas id="pieChart" className = "lineChartClass"></canvas>
                     </div>
+                    <div className = "outTemDiv">
+                    <a href="#/" id="openMap"><img src = "./imgs/homebutton.png"/></a>
+                    <p> Go Home </p>
+                  </div>
 
           </div>
       )

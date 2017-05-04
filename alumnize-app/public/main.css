@@ -5,7 +5,7 @@ font-family: 'Josefin Slab', serif;
 section{
 		/*float: left;*/
 		padding-top: 50px;
-		padding-bottom: 100px;
+		padding-bottom: 50px;
 		width: 100%;
 		padding-left:0;
 		padding-right:0;
@@ -522,8 +522,8 @@ h1. {
   margin: auto;
   border-top: 1px #e9e9e9 solid;
   border-bottom: 1px #e9e9e9 solid;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  /*padding-top: 5em;*/
+  /*padding-bottom: 5em;*/
   /*margin-top: 3em;*/
   position: relative;
 }
@@ -545,9 +545,11 @@ h1. {
   letter-spacing: -1px;
 }
 
-.team-member h3 {
+.team-member h4 {
   color: #fc9827;
-	font-family: 'Poiret One', cursive
+	font-family: 'Poiret One', cursive;
+
+
 }
 
 .email {
@@ -610,10 +612,7 @@ h1. {
 	align-items: center;
 justify-content: center;
 }
+#submitButtonOurs {
+	background-color: #fd9827;
 
-/*.teamEditContainer {
-	background-color: #000;
-}*/
-
-/* ENDS Team Member CSS
-===========================*/
+}
