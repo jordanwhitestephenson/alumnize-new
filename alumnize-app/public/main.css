@@ -5,7 +5,7 @@ font-family: 'Josefin Slab', serif;
 section{
 		/*float: left;*/
 		padding-top: 50px;
-		padding-bottom: 50px;
+		margin-bottom: 150px;
 		width: 100%;
 		padding-left:0;
 		padding-right:0;
@@ -509,10 +509,6 @@ h1. {
     clear: both;
 }
 
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
 .cf {
     *zoom: 1;
 }
@@ -522,9 +518,6 @@ h1. {
   margin: auto;
   border-top: 1px #e9e9e9 solid;
   border-bottom: 1px #e9e9e9 solid;
-  /*padding-top: 5em;*/
-  /*padding-bottom: 5em;*/
-  /*margin-top: 3em;*/
   position: relative;
 }
 
@@ -649,4 +642,89 @@ justify-content: center;
 	align-content: center;
 	justify-content: center;
 	flex-direction: column;
+}
+
+
+section{
+  text-align:center;
+}
+.footer #button{
+	width:35px;
+	height:35px;
+	border: #727172 12px solid;
+	border-radius:35px;
+	margin:0 auto;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+	width:35px;
+	height:35px;
+	border: #3A3A3A 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
+}
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 10em;
+}
+.footer #container{
+	margin-top:5px;
+	width:100%;
+height:90%;
+  position:relative;
+  top:0;
+  left:0;
+	background: #3A3A3A;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+	width:100px;
+	height:auto;
+	margin:0 auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+  text-align:center;
+}
+.footer h3{
+	font-family: 'Josefin Slab', serif;
+	letter-spacing: -1px;
+	margin-top:70px;
+	margin-left:40px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+#openMap {
+	margin-bottom: 50px;
 }
