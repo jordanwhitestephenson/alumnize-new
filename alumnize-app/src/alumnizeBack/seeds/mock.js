@@ -4,11 +4,11 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('mock').insert([
-        {"id":1,"company":"Divavu","address":"5883 Del Mar Center","job title":"Software Engineer","gender":"Male","graduatedate":"12/5/2016","employeddate":"1/30/2017", "lat": 37.77, "long": -104.124},
+        {"id":1,"company":"Divavu","address":"5883 Del Mar Center","job title":"Software Engineer","gender":"Male","graduatedate":"12/5/2016","employeddate":"1/30/2017", "lat": 39.742043, "long": -104.991531},
 
-        {"id":2,"company":"Tagchat","address":"29393 Morrow Circle","job title":"Full Stack Web Developer","gender":"Female","graduatedate":"12/5/2016","employeddate":"3/23/2017", "lat" : 40.3656, "long": -102.951},
+        {"id":2,"company":"Tagchat","address":"29393 Morrow Circle","job title":"Full Stack Web Developer","gender":"Female","graduatedate":"12/5/2016","employeddate":"3/23/2017", "lat" : 40.3656, "long": -104.991531},
 
-        {"id":3,"company":"Mita","address":"2133 Eastlawn Lane","job title":"Full Stack Web Developer","gender":"Female","graduatedate":"12/5/2016","employeddate":"1/23/2017", "lat":38.1689, "long": -104.143},
+        {"id":3,"company":"Mita","address":"2133 Eastlawn Lane","job title":"Full Stack Web Developer","gender":"Female","graduatedate":"12/5/2016","employeddate":"1/23/2017", "lat":38.1689, "long": -104.991531},
 
         {"id":4,"company":"Voonix","address":"22169 Kinsman Terrace","job title":"Professor","gender":"Female","graduatedate":"12/5/2016","employeddate":"4/10/2017", "lat": 37.5036, "long": -102.996},
 

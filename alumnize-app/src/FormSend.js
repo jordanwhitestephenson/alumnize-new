@@ -10,7 +10,7 @@ class FormSend extends Component {
                     <div className="damnyouReact">
                         <div className="container">
                             <div className="newrow">
-                                <h1 className="newtitle">ADD YOUR DATA</h1>
+                                <h1 className="newtitle">DATA ADDED</h1>
                                 <p className="newParagraph">
                                     Alumnize</p>
                             </div>
@@ -19,9 +19,9 @@ class FormSend extends Component {
                 </div>
                 <div className="container">
                     <div className="columns">
-                        <div className="col-md-9 centered">
+                        <div className="col-md-9 goodJob1">
+                          <img src = "./imgs/GoodJob.png" className = "goodJob"/>
                           <p> Congrats, your data has been saved! </p>
-                          <p>  </p>
 
                         </div>
                     </div>

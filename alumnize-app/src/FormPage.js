@@ -11,23 +11,26 @@ class FormPage extends Component {
                     <div className="damnyouReact">
                         <div className="container">
                             <div className="newrow">
-                                <h1 className="newtitle">ADD YOUR DATA</h1>
+                                <h1 className="newtitle">Alumnize</h1>
                                 <p className="newParagraph">
-                                    Alumnize</p>
+                                    </p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div className = "outTemDiv">
+                  <h1 className="team-h1">ADD YOUR DATA</h1>
+                </div>
+              <section className="cf team-container">
                 <div className="container">
                     <div className="columns">
                         <div className="col-md-9 centered">
                             <FormContainer/>
-
-
                         </div>
                     </div>
                 </div>
-                <div className = "outTemDiv">
+              </section>
+                <div className = "outTemDiv" id = "buttonDiv">
                 <a href="#/" id="openMap"><img src = "./imgs/homebutton.png"/></a>
               </div>
             </div>

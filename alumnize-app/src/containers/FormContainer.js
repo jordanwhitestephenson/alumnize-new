@@ -111,11 +111,13 @@ class FormContainer extends Component {
 
 
 			</form>
+			<div className = "centerButton">
 			<a href = "#/FormSend"><input
 				type="submit"
 				className="btn btn-primary float-right"
 				id= "submitButtonOurs"
 			/></a>
+		</div>
 
 
 </div>

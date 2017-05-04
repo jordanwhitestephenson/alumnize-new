@@ -47,16 +47,22 @@ class MapPage extends Component {
                         </div>
                     </div>
                 </div>
+
                 <div className = "outTemDiv">
-                <a href="#/" id="openMap"><img src = "./imgs/homebutton.png"/></a>
-                <p> Go Home </p>
-              </div>
-              <div>
-                This is the REACT APP!
-                <div style={{width:900,height:600, background:'red'}}>
+                  <h1 className="team-h1">HIRED GRAD LOCATIONS</h1>
+                </div>
+              <section className="cf team-container">
+              <div className = "ReactMap">
+
+                <div className = "actualMap" style={{width:500,height:500}}>
                   <Map center={location} markers={this.state.markers} />
                 </div>
               </div>
+            </section>
+              <div className = "outTemDiv">
+              <a href="#/" id="openMap"><img src = "./imgs/homebutton.png"/></a>
+              <p> Go Home </p>
+            </div>
             </div>
         )
 
