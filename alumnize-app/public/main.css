@@ -475,6 +475,7 @@ box-shadow: 0px -18px 32px -21px rgba(171,171,171,1);
 .lineChartClass {
 	height: 400px;
 	width: 400px;
+	padding-top: 20px;
 }
 
 .lineChartClassPlacement {
@@ -483,7 +484,7 @@ box-shadow: 0px -18px 32px -21px rgba(171,171,171,1);
 }
 .pieChartPlacement {
 	width:400px;
-	margin-left: 520px;
+	/*margin-left: 520px;*/
 }
 
 h1. {
@@ -731,4 +732,9 @@ height:100%;
 }
 #openMap {
 	margin-bottom: 50px;
+}
+
+.MapContainer {
+	display: flex;
+	justify-content: center;
 }

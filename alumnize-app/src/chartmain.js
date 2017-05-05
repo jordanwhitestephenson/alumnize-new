@@ -13,11 +13,11 @@ let lineChart = function(el) {
   type:'line',
   responsive: false,
   data:{
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["Jan", "Feb", "March", "April", "May", "June", "July", "August", "Sept", "Oct", "Nov", "Dec"],
         datasets: [{
-            label: '# of Votes this year',
+            label: '# of females',
             lineTension:0.1,
-            data: [12, 19, 3, 5, 2, 3],
+            data: [10, 9, 3, 2, 6, 3, 0, 1, 1, 0, 0, 1],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 // 'rgba(54, 162, 235, 0.2)',
@@ -37,10 +37,10 @@ let lineChart = function(el) {
             borderWidth: 1
         },
         {
-            label: '# of votes last year',
+            label: '# of males',
             fill:false,
             lineTension:0.5,
-            data: [19, 15, 3, 8, 1, 3],
+            data: [8, 11, 3, 8, 1, 3, 1, 0, 1, 6, 0, 0],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
             ],
@@ -58,7 +58,7 @@ let pieChart = function(el) {
     type: 'pie',
     responsive: false,
     data:{
-      labels: ['Teaching', 'Front End', 'Full Stack', 'Back End', 'Program Managers'],
+      labels: ['Tech Education', 'Front End', 'Full Stack', 'Back End', 'Other'],
       datasets: [
         {
           label:'Points',

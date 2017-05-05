@@ -24,10 +24,11 @@ let ShowCompanies = React.createClass({
                     </div>
                 </div>
             </div>
+            <div className = "MapContainer">
 
                     <div id="line" className = "lineChartClassPlacement">
                       <canvas id="lineChart"  className = "lineChartClass"></canvas>
-                    </div>
+
                     <div id="pie" className ="pieChartPlacement">
                       <canvas id="pieChart" className = "lineChartClass"></canvas>
                     </div>
@@ -35,6 +36,8 @@ let ShowCompanies = React.createClass({
                     <a href="#/" id="openMap"><img src = "./imgs/homebutton.png"/></a>
                     <p> Go Home </p>
                   </div>
+                </div>
+                </div>
 
           </div>
       )
